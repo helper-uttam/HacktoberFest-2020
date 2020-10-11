@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() 
 {
-    int ct,num,sum=0;//defining the variable 1st before using in array
+    int ct,num,sum=0;//declaring the variable first, before using in array
     scanf("%d",&num);
     int array[num]; //num=size of the array
     for(ct=0;ct<num;ct++)
